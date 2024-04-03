@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Try4</string>
+    <string name="virtual_service_dog">Virtual Service Dog</string>
+    <string name="mascot">Mascota</string>
+    <string name="signin_redirect">Sign In</string>
+    <string name="signup_redirect">Sign Up</string>
+    <string name="sign_in_database">Sign In</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+    <string name="sign_up_database">Sign Up</string>
+    <string name="sign_in_databasee">Sign In</string>
+    <string name="not_yet_registered_sign_up">Not yet registered? Sign Up</string>
+    <string name="sign_up_databse">Sign Up</string>
+    <string name="emailSignUp">email</string>
+    <string name="passwordSignUp">password</string>
+    <string name="already_a_user_sign_in">Already a user? Sign In</string>
+    <string name="generate">Generate heartrate and pressure</string>
+    <string name="call_emergency">call emergency</string>
+    <string name="generating_metrics">Generating metrics</string>
+
+    <string name="lower_blood_pressure">Lower blood pressure</string>
+    <string name="heart_beats_per_minute">Heart Beats per minute</string>
+    <string name="here_analysis_will_show">here analysis will show</string>
+    <string name="upper_blood_pressure">upper blood pressure</string>
+    <string name="checking_blood_pressure_and_heart_rate">Checking Blood-Pressure and Heart-Rate</string>
+    <string name="normal">normal blood pressure</string>
+    <string name="elevated">elevated blood pressure</string>
+    <string name="stage_1_hypertension">stage 1 hypertension</string>
+
+    <string name="calling_emergency"> calling emergency</string>
+    <string name= "with">with</string>
+    <string name= "heart_rate">heart rate</string>
+
+        <string name="stage_2_hypertension">Stage 2 Hypertension</string>
+
+    <string name="sign_in_successful">Sign In Successful</string>
+
+
+
+
+</resources>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_background"
+    android:orientation="vertical"
+    tools:context=".Launcher">
+
+    <!--TODO: exit button-->
+    <!--TODO make the splashscreen have animations-->
+    <!--TODO fix theme buttons so they are colourful-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="142dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+
+        android:text="@string/virtual_service_dog"
+        android:textColor="@color/teal_LIGHT"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="293dp"
+        android:layout_height="325dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/mascot"
+        android:contentDescription="@string/mascot" />
+
+    <Button
+
+        android:id="@+id/signin_redirectBtn"
+        android:layout_width="200sp"
+        android:layout_gravity="center"
+        android:layout_height="60dp"
+        android:layout_marginTop="60dp"
+        android:backgroundTint="@color/teal_LIGHT"
+        android:textColor="@color/teaL_DARK"
+        android:text="@string/signin_redirect"
+        android:textSize="18sp"
+        app:cornerRadius="20dp"
+        android:clickable="true"
+        android:focusable="true"/>
+
+    <Button
+    android:id="@+id/signup_redirectBtn"
+    android:layout_width="200sp"
+    android:layout_height="60dp"
+        android:layout_gravity="center"
+    android:text="@string/signup_redirect"
+    android:textSize="18sp"
+    android:textColor="@color/teaL_DARK"
+    android:layout_marginTop="30dp"
+    android:backgroundTint="@color/teal_LIGHT"
+    app:cornerRadius="20dp"
+        android:clickable="true"
+        android:focusable="true"/>
+</LinearLayout>

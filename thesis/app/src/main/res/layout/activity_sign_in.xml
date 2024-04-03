@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/main_background"
+
+    tools:context=".SignInActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_margin="30dp"
+        app:cardBackgroundColor="@color/black_blue"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/custom_edittext"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sign_in_database"
+                android:textAlignment="center"
+                android:textColor="@color/teal_LIGHT"
+                android:textSize="36sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/Sign_In_email"
+                android:layout_width="300sp"
+                android:layout_height="48dp"
+                android:layout_marginTop="40dp"
+                android:autofillHints="emailAddress"
+                android:background="@drawable/custom_edittext"
+                android:drawableStart="@drawable/baseline_email_24"
+                android:drawablePadding="8dp"
+                android:hint="@string/email"
+                android:inputType="textEmailAddress"
+                android:padding="8dp"
+                android:textColor="@color/teal_LIGHT"
+                android:textColorHint="@color/teal_darkish" />
+
+            <EditText
+                android:id="@+id/Sign_In_pass"
+                android:layout_width="300sp"
+                android:layout_height="48dp"
+                android:layout_marginTop="40dp"
+                android:autofillHints="password"
+                android:background="@drawable/custom_edittext"
+                android:drawableStart="@drawable/baseline_lock_24"
+                android:drawablePadding="8dp"
+                android:hint="@string/password"
+                android:inputType="textPassword"
+                android:padding="8dp"
+                android:textColor="@color/teal_LIGHT"
+                android:textColorHint="@color/teal_darkish" />
+
+            <Button
+                android:id="@+id/sign_in_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:backgroundTint="@color/teal_LIGHT"
+                android:text="@string/sign_in_databasee"
+                android:textColor="@color/teaL_DARK"
+                android:textSize="18sp"
+                app:cornerRadius="20dp"
+                android:clickable="true"
+                android:focusable="true"/>
+
+            <TextView
+                android:id="@+id/SignUp_redirect"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="12sp"
+                android:text="@string/not_yet_registered_sign_up"
+                android:textColor="@color/teal_LIGHT"
+                android:textSize="18sp" />
+
+
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

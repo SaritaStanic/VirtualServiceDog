@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/main_background"
+    android:backgroundTint="@color/teal_LIGHT"
+    android:backgroundTintMode="src_in"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="30sp"
+        android:layout_marginEnd="30sp"
+        android:gravity="center"
+        app:cardBackgroundColor="@color/teaL_DARK"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/custom_edittext"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <TextView
+                android:id="@+id/title_generate"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:padding="8dp"
+                android:textColor="@color/teal_LIGHT"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:visibility="visible"
+                android:text="@string/checking_blood_pressure_and_heart_rate"
+                />
+
+
+            <TextView
+                android:id="@+id/Heartbeats"
+                android:layout_width="300sp"
+                android:layout_height="48dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/custom_edittext"
+                android:textColor="@color/dark_blue"
+                android:textSize="24sp"
+                android:textStyle="italic"
+                android:padding="8dp"
+                android:hint="@string/upper_blood_pressure"/>
+
+
+            <TextView
+                android:id="@+id/pressure_lower"
+                android:layout_width="300sp"
+                android:layout_height="48dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/custom_edittext"
+                android:textColor="@color/dark_blue"
+                android:textSize="24sp"
+                android:textStyle="italic"
+                android:padding="8dp"
+                android:hint="@string/lower_blood_pressure" />
+
+            <TextView
+                android:id="@+id/pressure_upper"
+                android:layout_width="300sp"
+                android:layout_height="48dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/custom_edittext"
+                android:textAlignment="center"
+                android:textColor="@color/dark_blue"
+                android:textSize="24sp"
+                android:textStyle="italic"
+                android:padding="8dp"
+                android:hint="@string/heart_beats_per_minute" />
+
+            <Button
+                android:id="@+id/generate"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:backgroundTint="@color/teal_LIGHT"
+                android:text="@string/generate"
+                android:textColor="@color/dark_blue"
+                android:textSize="18sp"
+                app:cornerRadius="20dp" />
+
+
+            <TextView
+                android:id="@+id/result"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/custom_edittext"
+                android:layout_marginTop="60dp"
+                android:hint="@string/here_analysis_will_show"
+                android:textSize="24sp"
+                android:padding="14sp"
+                android:gravity="center"
+                />
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+    <Button
+        android:id="@+id/call"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="8sp"
+        android:backgroundTint="@color/teaL_DARK"
+        android:gravity="center"
+        android:text="@string/call_emergency"
+        android:textColor="@color/Off_white"
+        android:textSize="18sp"
+        app:cornerRadius="20dp" />
+
+
+</LinearLayout>
